@@ -1,0 +1,66 @@
+body{
+	border: 2px solid #000000;
+	padding: 20px 10px 20px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+aside{
+	float: left;
+	padding: 100px;
+}
+
+img{
+	border-radius: 100%;
+	position: relative;
+	top: -15px
+}
+
+h1{
+	color: #472b9b;
+}
+
+h3{
+	color: #472b9b;
+	float: left;
+	margin-top: 0px;
+	padding-right: 100px;
+	padding-left: 25px;
+}
+
+i{
+font-size: 15px;
+color: #472b9b;
+float: left;
+padding-right: 5px;
+}
+
+h4{
+	color: #472b9b;
+}
+
+#user-description{
+	color: #9b9aa0;
+	padding-top: 5px;
+	margin-right: 25px;
+}
+
+#line{
+	border-top: 2px solid #472b9b;
+	margin-left: 400px;
+	margin-right: 25px;
+}
+
+strong{
+	color: #472b9b;
+	padding-left: 15px;
+}
+
+table{
+	border-spacing: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+	height : 100%;
+	margin: 0px;
+}
+
+body{
+	border: 2px solid #000000;
+	padding: 50px;
+	margin: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+	margin-top : 2rem;
+}
+
+.logo .img-fluid {
+	width : 100%;
+	display: block; 
+	margin : 1rem auto 1rem auto;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #472b9b;
+	margin-bottom: -10px;
+}
+
+div.banner {
+	float : right;
+	display: inline-block;
+	width: 50%;
+	padding :2rem;
+}
+
+div.logo {
+	float : left;
+	display: inline-block;
+	width: 50%;
+	padding:1rem;
+}
+
+#tagline{
+	color: #472b9b;
+	font-size: 25px;
+}
+
+p{
+	color: #9b9aa0;
+}
+
+@media only screen and (max-width: 768px) {
+
+.logo .img-fluid {
+	width : 60%;
+	display: block; 
+	margin : -1rem auto -1rem auto;
+	padding: -50px;
+}
+
+div.banner {
+	display: inline-block;
+	width: 100%;
+	padding :0rem 2rem 2rem 20%;
+}
+
+div.logo {
+	float : none;
+	display: inline-block;
+	width: 100%;
+	padding:1rem;
+}			
+			
+h1 {
+	margin : 0.5rem;
+	font-size: 3rem;
+}
+
+#username{
+	float:left;
+	margin-right: 50px;
+	padding-right: 50px;
+}
+
+#password{
+	float:left;
+	margin-right: 50px;
+	padding-right: 50px;
+}
+
+button{
+	float: center;
+	padding: 0px 50px 0px 50px;
+	}
+	
+
